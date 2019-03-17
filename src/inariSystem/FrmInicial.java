@@ -1,4 +1,4 @@
-package inarisystem;
+package inariSystem;
 
 import java.awt.EventQueue;
 
