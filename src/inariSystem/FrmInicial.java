@@ -158,7 +158,10 @@ public class FrmInicial extends JFrame {
 
 		JButton btnConfirmarEntrada = new JButton("CONFIRMAR ENTRADA");
 
-		JComboBox cmbCultura = new JComboBox();
+		
+		JComboBox<String> cmbCultura = new JComboBox<String>();
+		cmbCultura.setModel(new DefaultComboBoxModel<String>(new String[] {"ARROZ", "BATATA", "MILHO", "SOJA"}));
+		cmbCultura.setName("");
 
 		GroupLayout gl_contentPane = new GroupLayout(contentPane);
 		gl_contentPane.setHorizontalGroup(gl_contentPane.createParallelGroup(Alignment.LEADING).addGroup(gl_contentPane
