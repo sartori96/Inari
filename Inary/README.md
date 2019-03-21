@@ -1,1 +1,1 @@
-# Inary
+# Inari
